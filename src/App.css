@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    line-height: 1.4;
+}
+.container{
+    display: flex;
+}
+.side-bar{
+    /* flex: 1 ; */
+    width: 20%;
+    background-color: aqua;
+    height: 100vh;
+}
+.editor{
+    /* flex: 5; */
+    height: 100vh;
+    width: 80%;
+}
+.ql-editor{
+    height: 87.6vh !important ;
+}
+.list{
+    list-style: none;
+    cursor: pointer;
+    /* margin-top: 1rem; */
+}
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem ;
+    outline: none;
+    border: none;
+    background-color: rgb(7, 7, 102);
+    color: #ffffff;
+}
+.title-input{
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.3rem;
+    outline: none;
+
+}
+.btn-add{
+    padding: 0.5rem 1rem ;
+    outline: none;
+    border: none;
+    margin-left: 0.4rem;
+    background-color: rgb(19, 211, 83);
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
